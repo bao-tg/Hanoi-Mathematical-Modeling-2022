@@ -1,0 +1,343 @@
+\section{Nâng cao chất lượng cuộc sống và xây dựng plan}
+Trong biểu đồ đánh giá độ quan trọng của từng domain ở phần III, ta chọn ra được $3$ domain ảnh hưởng nhất đến chất lượng cuộc sống là: giáo dục và đào tạo, sức khỏe, thu nhập. Tiếp đến, nhóm mình sẽ bàn về việc nâng cao chất lượng và xây dựng plan để tối ưu hóa cuộc sống.
+\subsection{Y tế và chăm sóc sức khỏe}
+Để có một sức khỏe tốt, dinh dưỡng là một điều không thể thiếu. Tìm hiểu về chế độ ăn uống và đưa ra thực đơn hợp lý là một cách tốt để đảm bảo về sức khỏe và sự phát triển của bản thân. Do đó, nhóm mình sẽ lập nên một thực đơn ăn uống trong vòng một tuần để có hiệu quả tốt nhất.\\
+Chúng ta sẽ xây dựng mô hình về thực đơn ăn uống dựa trên giá trị dinh dưỡng của suất ăn hay tính toán về lượng calo cho một suất ăn bất kì.\\
+Giả sử cần phải lập thực đơn ăn uống trong một tuần cho một bạn nam có chiều cao 1m75, nặng 70kg và đang ở độ tuổi 18.\\
+Áp dụng công thức tính tỉ lệ trao đổi chất cơ bản, ta có mức năng lượng cơ thể cần để đảm bảo duy trì các hoạt động bình thường là:
+$$BMR = 66,5 + 13,75.70 + 5,003.175 - 6,755.18 = 1782,935$$
+Giả sử mức vận động của người đó ở mức vừa (3 - 5 lần/tuần), khi đó tổng lượng kcal tiêu thụ/ngày là:
+$$TDEE = BMR.R = 1782,935.1,55 = 2763,54925$$
+Do đó, để duy trì được năng lượng cơ thể thì mỗi ngày phải cung cấp xấp xỉ 2763,54925 kcal.\\
+Chúng ta đều biết rằng kcal là thứ quan trọng mà chúng ta nói tới một món ăn hay suất ăn cụ thể. Do đó ta sẽ lập các bảng thống kê về giá trị dinh dưỡng của các món ăn tính theo đơn vị kcal. Các món ăn sẽ được chia làm các phần: món sáng, món mặn, món rau, món canh, món súp và ăn vặt [5].
+\begin{center}
+\begin{tabular}{ | m{1cm} | m{4cm}| m{3cm} | m{4cm}|}
+ \hline
+ \multicolumn{4}{|c|}{Món sáng} \\
+ \hline
+  STT& Tên món & Số lượng & Giá trị năng lượng (kcal) \\ 
+\hline
+  1 & Xôi xéo & 200 gram & 334 \\ 
+ \hline
+  2 & Bánh mì thịt & 1 ổ & 318 \\ 
+ \hline
+   3& Phở bò & 1 tô & 315 \\ 
+ \hline
+   4 & Mì tôm & 1 tô & 129 \\ 
+ \hline
+   5 & Cháo sườn & 1 tô & 255 \\ 
+ \hline
+   6 & Bún riêu cua & 1 tô & 362 \\ 
+ \hline
+   7 & Bánh bao nhân thịt & 1 chiếc & 211 \\ 
+ \hline
+\end{tabular}
+\end{center}
+
+
+\begin{center}
+\begin{tabular}{ | m{1cm} | m{4cm}| m{3cm} | m{4cm}|}
+ \hline
+ \multicolumn{4}{|c|}{Món mặn} \\
+ \hline
+  STT& Tên món & Số lượng & Giá trị năng lượng (kcal) \\ 
+\hline
+  1 & Salad ức gà & 1 dĩa & 225 \\ 
+ \hline
+  2 & Thịt gà xào rau củ & 1 dĩa & 301 \\ 
+ \hline
+   3& Thịt bò kho tiêu & 1 dĩa & 333 \\ 
+ \hline
+   4 & Thịt bò hầm khoai tây & 1 tô & 516 \\ 
+ \hline
+   5 & Cá sốt cà chua & 1 dĩa & 415 \\ 
+ \hline
+   6 & Cá rán & 1 dĩa & 432 \\ 
+ \hline
+   7 & Thịt heo kho trứng & 1 dĩa & 339 \\ 
+ \hline
+    8 & Thịt heo luộc & 1 dĩa & 270 \\ 
+ \hline
+    9 & Tôm kho & 1 dĩa & 287 \\ 
+ \hline
+    10 & Tôm nấu măng & 1 tô & 268 \\ 
+ \hline
+    11 & Mực nhồi thịt hấp & 1 dĩa & 301 \\ 
+ \hline
+    12 & Mực chiên xù & 1 dĩa & 312 \\ 
+ \hline
+    13 & Xúc xích & 100 gram & 315 \\ 
+ \hline
+    14 & Chả lụa & 2 chiếc & 134 \\ 
+ \hline
+\end{tabular}
+\end{center}
+
+
+
+\begin{center}
+\begin{tabular}{ | m{1cm} | m{4cm}| m{3cm} | m{4cm}|}
+ \hline
+ \multicolumn{4}{|c|}{Món rau} \\
+ \hline
+  STT& Tên món & Số lượng & Giá trị năng lượng (kcal) \\ 
+\hline
+  1 & Rau muống luộc & 1 dĩa & 115 \\ 
+ \hline
+  2 & Rau muống xào & 1 dĩa & 168\\ 
+ \hline
+   3& Rau cải luộc & 1 dĩa & 121 \\ 
+ \hline
+   4 & Rau cải xào & 1 dĩa & 165 \\ 
+ \hline
+   5 & Rau dền luộc & 1 dĩa & 177 \\ 
+ \hline
+   6 & Mướp xào & 1 dĩa & 239 \\ 
+ \hline
+   7 & Salad dưa chuột cà chua & 1 dĩa & 197 \\ 
+ \hline
+    8 & Giá xào & 1 dĩa & 168 \\ 
+ \hline
+    9 & Nấm xào & 1 dĩa & 202 \\ 
+ \hline
+    10 & Ngọn bí xào tỏi & 1 dĩa & 162 \\ 
+ \hline
+\end{tabular}
+\end{center}
+
+
+
+\begin{center}
+\begin{tabular}{ | m{1cm} | m{4cm}| m{3cm} | m{4cm}|}
+ \hline
+ \multicolumn{4}{|c|}{Món canh, súp} \\
+ \hline
+  STT& Tên món & Số lượng & Giá trị năng lượng (kcal) \\ 
+\hline
+  1 & Canh rau ngót & 1 tô & 155 \\ 
+ \hline
+  2 & Canh bầu nấu tôm & 1 tô & 327\\ 
+ \hline
+   3& Canh su hào & 1 tô & 245 \\ 
+ \hline
+   4 & Canh mồng tơi nấu cua & 1 tô & 226 \\ 
+ \hline
+   5 & Canh rau cải & 1 tô & 216 \\ 
+ \hline
+   6 & Canh chua & 1 tô & 366 \\ 
+ \hline
+   7 & Súp nấm & 1 tô & 215 \\ 
+ \hline
+    8 & Súp bí đỏ & 1 tô & 404 \\ 
+ \hline
+    9 & Súp rong biển & 1 tô & 299 \\ 
+ \hline
+    10 & Súp ngô hải sản & 1 tô & 316 \\ 
+ \hline
+\end{tabular}
+\end{center}
+
+
+
+\begin{center}
+\begin{tabular}{ | m{1cm} | m{4cm}| m{3cm} | m{4cm}|}
+ \hline
+ \multicolumn{4}{|c|}{Ăn vặt} \\
+ \hline
+  STT& Tên món & Số lượng & Giá trị năng lượng (kcal) \\ 
+\hline
+  1 & Bơ & 100 gram & 160 \\ 
+ \hline
+  2 & Táo & 100 gram & 52 \\ 
+ \hline
+   3& Cam & 100 gram & 47 \\ 
+ \hline
+   4 & Nhãn & 100 gram & 62 \\ 
+ \hline
+   5 & Xoài & 100 gram & 60 \\ 
+ \hline
+   6 & Dâu tây & 100 gram & 32 \\ 
+ \hline
+   7 & Na & 100 gram & 101 \\ 
+ \hline
+    8 & Mít sấy & 50 gram & 131 \\ 
+ \hline
+    9 & Hạt hướng dương & 50 gram & 292 \\ 
+ \hline
+    10 & Hạt điều & 50 gram & 286 \\ 
+ \hline
+    11 & Bánh quy hạnh nhân & 50 gram & 166 \\ 
+ \hline
+    12 & Bánh quy phô mai & 50 gram & 221 \\ 
+ \hline
+    13 & Chè khúc bạch & 1 ly & 264 \\ 
+ \hline
+    14 & Chè đậu đen & 1 ly & 278 \\ 
+ \hline
+\end{tabular}
+\end{center}
+Tiếp theo ta sẽ sắp xếp các món ăn trên vào thực đơn 1 tuần gồm 7 ngày, sao cho:
+\begin{itemize}
+    \item Mỗi ngày gồm : bữa sáng, bữa trưa, bữa tối và bữa phụ.
+    \item Bữa sáng gồm 1 món ăn sáng.
+    \item Bữa trưa và bữa tối mỗi bữa gồm cơm, 2 món mặn (khác nhau), 1 món rau và 1 món canh hoặc súp.
+    \item Bữa phụ gồm 2 món ăn vặt (trong đó có 1 món trái cây).
+    \item Đặt $T_i$ với $i \in \mathbb{N}, 1 \leq i \leq 7$ là tổng lượng kcal ngày thứ $i$ từ thực đơn và $X_i= |T_i - 2763,54925|$. Ta sẽ xây dựng thực đơn sao cho các giá trị $X_i$ không quá lớn.
+\end{itemize}
+Để tối ưu hoá thực đơn và hạn chế số lần thực hiện ta xây dựng thực đơn cơ bản bằng cách:
+\begin{itemize}
+    \item Cho các món ăn sáng có kcal tăng dần từ ngày 1 đến ngày 7.
+    \item Bữa trưa kcal món mặn 1 tăng dần, món mặn 2 giảm dần, món rau tăng dần, món canh giảm dần (theo thứ tự ngày $1, 2, 3, 4, 5, 6, 7$).
+    \item Bữa tối kcal món mặn 1 tăng dần, món rau giảm dần (theo thứ tự ngày 2,3,4,5,6,7,1), kcal món mặn 2 giảm dần, món canh tăng dần (theo thứ tự ngày 4,5,6,7,1,2,3).
+    \item Bữa phụ có kcal trái cây tăng dần và kcal ăn vặt giảm dần.
+\end{itemize}
+Ta xây dựng được thực đơn cho 7 ngày trong 1 tuần như sau:
+\begin{center}
+\begin{tabular}{ | m{0.8cm} | m{2cm}| m{3cm} |m{3cm} | m{3.2cm} | m{2.2cm} |m{1cm} |}
+ \hline
+  Ngày & Bữa sáng & Bữa trưa & Bữa tối & Bữa phụ & Tổng kcal ($T_i$) & $X_i$\\ 
+\hline
+  1 & Mì tôm & Chả lụa \newline Thịt bò hầm khoai tây \newline Rau muống luộc\newline Súp bí đỏ& Thịt gà xào rau củ \newline Thịt bò kho tiêu \newline Rau cải xào \newline Canh mồng tơi nấu cua & Dâu tây \newline Hạt hướng dương & 2781 & 17,45 \\ 
+ \hline
+  2 & Bánh bao & Salad ức gà \newline Cá rán \newline Rau cải luộc \newline Canh chua & Chả lụa \newline Xúc xích \newline Mướp xào \newline Súp rong biển & Cam \newline Hạt điều & 2813 & 49,45 \\ 
+ \hline
+  3 & Cháo sườn & Tôm nấu măng \newline Cá sốt cà chua \newline Ngọn bí xào tỏi \newline Canh bầu nấu tôm & Salad ức gà \newline Mực chiên xù \newline Nấm xào \newline Súp ngô hải sản & Táo \newline Chè đậu đen & 2946 & 182,45 \\ 
+ \hline
+  4 & Phở bò  & Thịt heo luộc \newline Thịt bò kho tiêu \newline Rau cải xào \newline Súp ngô hải sản & Tôm nấu măng \newline Thịt bò hầm khoai tây \newline Salad dưa chuột cà chua \newline Canh rau ngót  & Xoài \newline Chè khúc bạch & 2993 & 229,45 \\ 
+ \hline
+  5 & Bánh mì thịt & Tôm kho \newline Thịt kho trứng \newline Giá xào \newline Súp rong biển & Thịt heo luộc \newline Cá rán \newline Rau dền luộc \newline Súp nấm & Nhãn \newline Bánh quy vị phô mai & 2922 & 158,45 \\ 
+ \hline
+  6 & Xôi xéo & Mực nhồi thịt hấp \newline Xúc xích \newline Rau muống xào \newline Canh su hào  &Tôm kho \newline Cá sốt cà chua \newline Giá xào \newline Canh rau cải  & Na \newline  Bánh quy hạnh nhân & 2850 & 86,45 \\ 
+ \hline
+  7 & Bún riêu cua  & Thịt gà xào rau củ \newline Mực chiên xù \newline Rau dền luộc \newline Canh mồng tơi nấu cua & Mực nhồi thịt hấp \newline Thịt heo kho trứng \newline Rau muống xào \newline Canh su hào & Bơ \newline Mít sấy & 2856 & 92,45 \\ 
+ \hline
+\end{tabular}
+\end{center}
+\begin{ly}
+Khi tính tổng kcal $(T_i)$, ngoài các món ăn kể trên còn bao gồm 134 kcal từ cơm mỗi ngày.
+\end{ly}
+\subsection{Giáo dục và đào tạo}
+\textbf{Tình hình thực tế:} trước tình hình dịch Covid-19 diễn biến phức tạp thì việc học tập tại các cơ sở dưới hình thức tập trung trực tiếp gần như bị gián đoạn hoàn toàn.\\ 
+Để có thể giải quyết vấn đề 1 cách đơn giản hơn ta đặt ra một vài số liệu có tính tương đối như sau:
+\begin{itemize}
+    \item $100 \%$ việc học tập trong mùa dịch được thực hiện tại nhà hoặc trực tuyến.
+    \item Giấc ngủ trung bình của người Việt Nam [6] vào khoảng 7h/ngày.
+    \item Khoảng thời gian trung bình người Việt  dùng cho các hoạt động khác:
+    \begin{itemize}
+        \item Ăn uống: 1,5h/ngày (30’/ bữa).
+        \item Tập thể dục thể thao: 0,5h/ngày.
+        \item Giải trí (chủ yếu thuộc về sử dụng Smartphone) [7]: 5,1h/ngày.
+        \item Sinh hoạt trong gia đình: 2,21h/ngày (2,89h/ngày đối với nữ và 1,53h/ngày đối với nam).
+    \end{itemize}
+\end{itemize}
+Kết luận: Khoảng thời gian trung bình còn lại dùng cho vấn đề giáo dục vào khoảng 7,69h/ngày (Lưu ý khoảng thời gian này chỉ là tương đối và sẽ có sai số tuỳ thuộc vào thói quen sinh hoạt từng người).\\
+
+Tiếp theo, ta sẽ tìm hiểu về các khung giờ học tập để mang lại hiệu quả tốt nhất
+\begin{itemize}
+    \item 4h30 - 6h: học lý thuyết\\
+     Theo nghiên cứu, đây là khung giờ lý tưởng để bắt đầu học thuộc lòng, bởi giờ này không khí yên tĩnh, đầu óc sáng suốt do đó não dễ tiếp nhận thông tin hơn.
+    \item 7h15 - 10h: Khung giờ cho các môn xã hội, văn học, ngôn ngữ \\
+    Đây là khoảng thời gian rất tốt để học các môn liên quan đến xã hội, ngôn ngữ, văn học. Các môn này đòi hỏi việc ghi nhớ các kiến thức liên quan đến sáng tạo và ít đòi hỏi tư duy logic.
+    \item 14h - 16h30: khung giờ tốt nhất cho các môn tự nhiên\\
+    Buổi chiều là khoảng thời gian vô cùng thích hợp để học các môn tự nhiên đòi hỏi tư duy logic và tính toán nhiều. Một số cách để giảm bớt căng thẳng trong khoảng thời gian này đó chính là nghe những bài nhạc không lời và có khoảng nghỉ giữa chừng trong thời gian học.
+    \item 19h45 - 22h30: thời gian dành cho các môn tính toán, logic\\
+    Vào khoảng thời gian cuối ngày, não bộ sẽ không còn được sung sức dành cho các môn học thuộc lòng nữa,  không nên học các kiến thức quá khó vì sẽ khiến chúng ta nhanh chán, mệt mỏi. Cách tốt nhất là tận dụng khung giờ này để học các môn tính toán, có thể áp dụng công thức. Do đó, nên tận dụng khung giờ này để làm bài tập các môn tự nhiên như Toán, Lý, Hóa.
+\end{itemize}
+Lưu ý cho việc học tập được tốt hơn:  Để giảm bớt căng thẳng trong quãng thời gian học tập thì chúng ta có thể nghe những bài nhạc không lời. Ngoài ra, sau 45 phút - 1 giờ học tập nên rời bàn học và nghỉ ngơi từ 5 đến 10 phút. Quãng thời gian nghỉ ngơi này giúp chúng ta lấy lại năng lượng để việc học được tiếp tục một cách hiệu quả hơn. Đặc biệt, tránh vào mạng xã hội vì sẽ khiến bị phân tâm và cám dỗ.
+\textbf{Chuẩn bị trước khi lập plan}
+\begin{itemize}
+    \item Đánh giá năng lực hiện tại của bản thân
+    \begin{itemize}
+        \item Vừa mới tham dự xong kì thi THPTQG. Các kiến thức để học khi lên ĐH (đại cương toán, lí,...) vẫn chưa có.
+        \item Làm bài kiểm tra năng lực tiếng anh đạt mức tương đương 5.0 IELTS.
+        \item Xuất thân là chuyên Toán nên các kiến thức về lập trình chưa được tiếp xúc nhiều, trong khi bản thân sẽ theo học về IT.
+        \item Khá yếu các môn về xã hội và muốn tìm hiểu thêm về nó.
+    \end{itemize}
+    \item Mục tiêu học tập
+    \begin{itemize}
+        \item Nâng band IELTS lên 6.0 trong 2 tháng hè, học tiếng anh hàng ngày.
+        \item Học trước về các môn đại cương trong chương trình ĐH, có đủ năng lực để tham dự cuộc thi cấp trường diễn ra vào khoảng tháng 3 năm sau.
+        \item Tìm hiểu về lập trình, ôn luyện để tham gia thi cấp trường bảng không chuyên vào tháng 11.
+        \item Đọc thêm sách, truyện.
+        \item Việc học tập không quá nặng vì vừa kết thúc 12 năm đèn sách vất vả.
+    \end{itemize}
+\end{itemize}
+\subsection{Thu nhập}
+\textbf{Tình hình thực tế:}
+Tính đến tháng 12 năm 2020, cả nước có 32,1 triệu người từ 15 tuổi trở lên bị ảnh hưởng tiêu cực bởi dịch Covid-19 bao gồm người bị mất việc làm, phải nghỉ giãn việc/nghỉ luân phiên, giảm giờ làm, giảm thu nhập,… Trong đó, $69,2 \%$ người bị giảm thu nhập, $39,9 \%$ phải giảm giờ làm/nghỉ giãn việc/nghỉ luân phiên và khoảng $14,0 \%$ buộc phải tạm nghỉ hoặc tạm ngừng hoạt động sản xuất kinh doanh. [8]\\
+Trung bình chi tiêu hàng tháng của một người trong mùa dịch sẽ gồm các khoản
+\begin{itemize}
+    \item Khoản tiêu dùng ngắn hạn: là các khoản chi tiêu cần thiết chiếm phần lớn trong tổng chi tiêu hàng tháng bao gồm
+    \begin{itemize}
+        \item Chi tiêu cá nhân ( ăn uống, mua sắm, tiền điện thoại, trả nợ cả nhân, khác).
+        \item Chi tiêu nhà cửa ( tiền thuê nhà, tiền mua nhà, tiền điện, tiền nước, truyền hình, phí dịch vụ nhà).
+        \item Chi tiêu đi lại (tiền xăng, tiền đi lại khác).
+        \item Chi tiêu gia đình (tiền học phí cho con cái/ tiền tiêu vặt cho con nếu có gia đình).
+    \end{itemize}
+    \item Khoản tiêu dùng dài hạn: đây là các khoản tích góp để dành từng tháng để mua/ chi cho những khoản lớn (cưới hỏi, mua xe, nhà cửa, du lịch).
+    \item Khoản dành cho phát triển cá nhân: đây là khoản trống để đầu tư cho mình về kiến thức bằng các khóa học hoặc tài liệu sách vở là chính là đầu tư cho tương lai.
+\end{itemize}
+Tiếp đến ta sẽ bàn về các khoản thu nhập trong thời gian dịch bệnh.\\
+Những số liệu dưới đây chỉ mang tính tương đối vì có thể mức lương sẽ khác nhau tùy thuộc vào chất lượng công việc (cùng một công việc nhưng làm ra thành phẩm có yêu cầu độ khó, độ tinh vi cao hơn sẽ được nhiều tiền hơn) hoặc phụ thuộc vào nơi làm việc (như việc dạy thêm ở thành phố sẽ có mức lương cao hơn ở những vùng nông thôn) nên tôi chỉ đưa ra số liệu có tính tương đối và khái quát cao nhất (theo kinh nghiệm cá nhân và các trang thông tin việc làm trên internet) để tiện cho việc lập plan sau này.
+\begin{itemize}
+    \item Đối với những cá nhân ở khu vực không bị ảnh hưởng bởi dịch Covid-19: những công việc chính vẫn sẽ được duy trì nên sẽ thu được mức thu nhập ổn định, cụ thể theo số liệu thống kê, vào năm 2020, thu nhập bình quân tháng đạt 5,5 triệu đồng [9].
+    \item Đối với những cá nhân ở khu vực bị ảnh hưởng bợi dịch Covid-19 hoặc những cá nhân chưa có việc làm chính (như sinh viên, người mới ra trường,...): có thể làm những công việc làm thêm tại nhà (work from home) để kiếm thu nhập hàng tháng.
+\end{itemize}
+Có thể tìm việc làm thêm ở các trang web lớn trên mạng như: vietnamworks, jobstreet, timviecnhanh,.... hoặc các group tìm việc trên facebook như: Job opportunities - Internship, HR - INTERNSHIP & CAREER OPPORTUNITIES.\\
+Những việc phổ biến có thể làm thêm tại nhà trong thời gian dịch bệnh:\\
+\textbf{Việc làm đồ thủ công:} người làm sẽ nhận làm thêm các công việc gia công tại nhà (như thêu tranh, làm đồ handmade,...). Thu nhập dao động trung bình từ 500.000 VNĐ cho đến 2.000.000 VNĐ (hoặc có thể hơn) một tháng.\\
+\textbf{Việc làm trực tuyến qua các phương tiện hiện đại:} để có thể làm việc từ xa hiệu quả cần có sự chuẩn bị như việc đảm bảo máy tính có kết nối internet ổn định, sử dụng thành thạo các phần mềm riêng của doanh nghiệp,.. Ta có thể kể đến một số công việc như sau:
+\begin{itemize}
+    \item Làm cộng tác viên viết bài: người làm sẽ nhận yêu cầu và viết bài chuẩn SEO về đa dạng lĩnh vực (như bóng đá, thời trang, đồ ăn,...) từ các công ty hoặc trên những trang web trên internet. Thu nhập dao động từ 5.000.000 VNĐ cho đến 10.000.000 VNĐ (hoặc có thể hơn) một tháng.
+    \item Dịch thuật tại nhà: người làm nếu có năng khiếu về ngoại ngữ có thể nhận dịch văn bản hoặc phim. Thu nhập trung bình khi dịch một văn bản là 35.000 VND đến 200.000 VNĐ và một bộ phim là 150.000 VNĐ đến 200.000 VNĐ.
+    \item Gia sư online tại nhà: công việc dành cho những người có kiến thức và khả năng truyền đạt tốt. Đây là công việc sẽ không tốn nhiều thời gian mà đem lại nguồn thu nhập ổn định. Người làm sẽ nhận dạy thêm (cho một trung tâm tiếng anh hoặc trung tâm dạy toán,....). Thu nhập trung bình của việc dạy cho một trung tâm tiếng anh sẽ là khoảng 50.000 VNĐ đến 60.000 VNĐ/1 giờ, thu nhập 1 tháng sẽ dao động từ 2.000.000 VNĐ đến 5.000.000 VNĐ.
+    \item chăm fanpage/Trực page Facebook: người làm sẽ quản lý page facebook, công việc chỉ đòi hỏi người làm có thời gian 4-5 tiếng/1 ngày , không bắt buộc cố định và lương cũng nằm ở mức ổn. Thu nhập mỗi giờ dao động khoản từ 20.000 VNĐ đến 30.000 VNĐ, mỗi tháng khoảng từ 2.400.000 VNĐ đến 4.500.000 VNĐ.
+    \item Designer online: hiện nay, công việc này đang được rất nhiều cá nhân và nhà tuyển dụng ưa chuộng. Các công ty hướng đến thuê design freelance để giải quyết công việc nhanh chóng và tiết kiệm được chi phí. Người làm chỉ cần dành khoảng 4-5h mỗi ngày. Thu nhập dao động từ 2.500.000 VNĐ đến 5.000.000 VNĐ một tháng.
+\end{itemize}
+
+Từ đó ta lập được bảng về plan trong giáo dục đào tạo và thu nhập trong 2 tháng hè như sau
+\begin{center}
+\begin{tabular}{ | m{2.5cm} | m{7.5cm}| m{7.5cm} |}
+ \hline
+ \multicolumn{3}{|c|}{4 tuần đầu} \\
+ \hline
+  Nội dung & Lịch trình & Ghi chú \\ 
+\hline
+ Tiếng anh & Dành ra 2-3 giờ/ngày (buổi sáng) \newline Listening: \newline - Rèn luyện phần phát âm để tránh nhầm lẫn khi nghe. \newline - Tích luỹ từ vựng và trau dồi ngữ pháp về các chủ đề thường gặp trong Listening. \newline Reading: \newline - Tự phân loại và học từ vựng theo các chủ đề. \newline Speaking: \newline - Đầu tư vào phần phát âm. \newline Writing: \newline - Trau dồi vốn từ vựng của một sô chủ đề phổ biến trong IELTS Writing: cách dùng từ, cách diễn đạt. \newline - Nắm chắc cách dùng và cấu trúc ngữ pháp cần thiết. \newline Kết hợp học trên những trang mạng xã hội như facebook, có thể học nhóm với bạn bè: nói chuyện bằng tiếng anh. \newline Làm bài test ôn lại kiến thức sau 4 tuần học& - Đây là khoảng thời gian mới bắt đầu nên cần tập trung vào những nội dung cơ bản như từ vựng, phát âm, ngữ pháp và tạo cho bản thân chiến lược làm bài hiệu quả. \newline - Đối với phần Speaking và Writing có thể gửi bài cho thầy cô chấm và chữa thường xuyên. \newline - Tránh việc học trong một khoảng thời gian quá dài dẫn đến chán nản thì có thể giải lao giữa giờ, có thể kết hợp khoảng thời gian này để nghe nhạc bằng tiếng anh. \\ 
+ \hline
+ Lập trình & Dành ra 1-2 giờ/ngày (buổi chiều hoặc tối) \newline - Tìm kiếm các khóa học online để làm quen với lập trình. Một số khóa học cơ bản như: C++ for beginners của Codelearn hoặc Codecademy. \newline - Tìm hiểu thêm về thiết kế website qua khóa Responsive Web Design của freecodecamp. & - Đây là khoảng thời gian để làm quen với lập trình và lựa chọn ngôn ngữ lập trình bắt đầu. \\ 
+ \hline
+ Đại cương các môn: toán, lý& Dành ra 1-2 giờ/ngày (buổi chiều hoặc tối) \newline - Tìm hiểu về đại cương các môn toán, lý ở chương trình đại học qua mạng. Sau đó sẽ tìm một tài liệu phù hợp với bản thân để theo học. Nó có thể là giáo trình của các trường ĐH trong nước, ngoài nước hoặc các cuốn sách chuyên sâu. \newline - Học và làm quen với các kiến thức cơ bản của đại cương theo các tài liệu đã tìm kiếm được ở trên. & - Nên nhờ các anh chị đi trước tư vấn để có được lộ trình học đúng nhất, không bị lệch hướng. \\ 
+ \hline
+ Kiến thức xã hội và giải trí & Dành ra 45 phút-1 giờ/ ngày (buổi tối) \newline - Đọc một số sách vừa có tính giải trí, vừa có tính nâng cao kiến thức. & - Đọc các cuốn truyện kinh điển như Harry Potter, Sherlock Holmes hoặc những truyện tranh ngắn viết bằng tiếng anh. \newlinw - Xem các bộ phim ngắn tập hoặc dài tập tùy thích. \\
+ \hline
+Thu nhập & Dạy thêm qua Zoom cho học sinh chuẩn bị lên lớp 12 ôn thi đại học (Toán, Lý, Hóa) & - Mỗi tuần dạy 2 buổi (thời gian dạy có thể linh hoạt tùy thuộc vào người học) mỗi buổi kéo dài 3 tiếng từ 8h-11h đêm. Lương một buổi 300.000 VNĐ. Thu nhập một tháng khoảng 3.900.000 VNĐ \\ 
+ \hline
+\end{tabular}
+\end{center}
+
+
+
+
+
+\begin{center}
+\begin{tabular}{ | m{2.5cm} | m{7.5cm}| m{7.5cm} |}
+ \hline
+ \multicolumn{3}{|c|}{4 tuần sau} \\
+ \hline
+  Nội dung & Lịch trình & Ghi chú \\ 
+\hline
+ Tiếng anh & Dành ra 2-3 giờ/ngày (buổi sáng) \newline Listening: \newline - Luyện tập các kỹ năng nâng cao như scanning, skimming, note-taking để không bỏ lỡ ý. \newline - Kiểm tra và phân tích đáp án sau khi làm bài. \newline Reading: \newline - Luyện tập và giải đề thường xuyên với độ khó tăng dần. \newline Speaking: \newline  - Luyện tập phát âm thường xuyên để tăng phản xạ và nói trôi chảy. \newline Writing: \newline - Luyện tập thường xuyên. \newline Tham khảo bài mẫu và thường xuyên gửi cho thầy cô chấm và sửa. \newline Thường xuyên đọc báo, tin tức, xem phim, nghe nhạc bằng tiếng anh. \newline Làm bài test ôn lại kiến thức sau 8 tuần học. & - Đây là khoảng thời gian tăng thời lượng học và tăng tốc giải các dạng đề để đạt kết quả.\\ 
+ \hline
+ Lập trình & Dành ra 1-2 giờ/ngày (buổi chiều hoặc tối) \newline - Khi đã quen với các kiến thức cơ bản, ta sẽ bắt đầu học những khóa học cao hơn như: C++ advanced, Data Science. \newline - Luyện kỹ năng về thuật toán ở những trang như codeforces, VNOI. \newline - Tìm hiểu về các dạng đề và làm thử đề thi olympic tin học cấp trường các năm trước nhằm chuẩn bị cho cuộc thi được diễn ra vào tháng 11. & - Trong giai đoạn này, khi đã bắt đầu quen với kiến thức cơ bản, ta sẽ tiếp xúc với những kiến thức sâu và rộng hơn. \\ 
+ \hline
+ Đại cương các môn: toán, lý& Dành ra 1-2 giờ/ngày (buổi chiều hoặc tối) \newline - Tiếp tục học để hoàn thiện những kiến thức căn bản của đại cương. Ngoài ra, có thể tham gia vào các diễn đàn để thảo luận nhằm nâng cao hơn kiến thức của bản thân. & - Hoàn thiện và nắm chắc kiến thức. \\ 
+ \hline
+ Kiến thức xã hội và giải trí & Dành ra 45 phút-1 giờ/ ngày (buổi tối) \newline - Đọc một số sách vừa có tính giải trí, vừa có tính nâng cao kiến thức tránh gây chán & - Đọc các cuốn truyện kinh điển như Harry Potter, Sherlock Holmes hoặc những truyện tranh ngắn viết bằng tiếng anh. \newlinw - Xem các bộ phim ngắn tập hoặc dài tập tùy thích. \\
+ \hline
+Thu nhập 1 & Dạy thêm qua Zoom cho học sinh chuẩn bị lên lớp 12 ôn thi đại học (Toán, Lý, Hóa) & - Mỗi tuần dạy 2 buổi (thời gian dạy có thể linh hoạt tùy thuộc vào người học) mỗi buổi kéo dài 3 tiếng từ 8h-11h đêm. Lương một buổi 300.000 VNĐ. Thu nhập một tháng khoảng 3.900.000 VNĐ \\ 
+ \hline
+ Thu nhập 2 & - Dịch thuật tại nhà: nhận dịch văn bản hoặc phim. \newline - Làm cộng tác viên viết bài (bóng đá, thời trang, đồ ăn,...) từ các công ty, web. & - Có thể thực hiện bất cứ lúc nào có thời gian rảnh còn lại. Thu nhập trung bình khi dịch một văn bản là 35.000 VND đến 200.000 VNĐ và một bộ phim là 150.000 VNĐ đến 200.000 VNĐ.\\
+ \hline
+\end{tabular}
+\end{center}
