@@ -1,0 +1,11 @@
+\begin{center}
+    \begin{figure}[h!]
+    \begin{center}
+     \includegraphics[scale=1.9]{hinh1}
+    \end{center}
+    \caption{Bảng các chủ đề và số thứ tự tương ứng}
+    \label{refhinh1}
+    \end{figure}
+\end{center}
+
+LƯU Ý: Khai báo cái này ở các mục đầu: \usepackage{graphicx}
