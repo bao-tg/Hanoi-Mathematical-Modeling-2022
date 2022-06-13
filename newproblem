@@ -35,7 +35,7 @@ for j in range(15):
         if lst1[j][i]!=0:
             yellow+=1
     if red==0 and yellow == 0:
-        print(f"Học sinh có STT: {j+1}")
+        print(f"Học sinh có STT: {j+1}", "là",Danhsach[j+1])
         lst6.append(j)
 lst8=[]
 
@@ -51,7 +51,7 @@ for j in range(15):
         if lst1[j][i]!=0:
             yellow+=1
     if red ==0 and yellow!=0:
-        print(f"Học sinh có STT: {j+1}")
+        print(f"Học sinh có STT: {j+1}", "là",Danhsach[j+1])
         lst5.append(j)
     if red !=0:
         value_function=0
