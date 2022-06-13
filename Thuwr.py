@@ -40,6 +40,21 @@ lst1=[[0,1,4,0,1,0,0,11,0,2,0,0,1,0],
 [0,5,0,0,0,0,0,0,0,0,2,0,0,0],
 [0,0,0,0,0,10,0,0,0,0,10,0,0,0]]
 #lst1 là list chứa thông tin về "Mức độ đóng góp của từng thành viên trong các cuộc hội thoại" đã được mã hóa.
+Danhsach={1:"Hải", 2:"Huyền", 3:"Duy", 4:"Việt", 5:"Tân", 6:"Khuê", 7:"Mía", 8:"Giang", 9:"Phanh", 10:"Ánh", 11:"Yến", 12:"Đan", 13:"Tô",
+14:"Thiện",15:"Trang", 16:"Thảo", 17:"Ngọc", 18:"Châu", 19:"Bảo", 20:"Dương", 21:"Yang", 22:"Trường", 23:"Sơn", 24:"An", 25:"Đậu", 26:"Hà", 27:"Đào", 28:"Nguyên",
+29:"Bình",
+30:"Hương",
+31:"Chi",
+32:"Nhi",
+33:"Trâm",
+34:"Đức Anh",
+35:"Tuấn",
+36:"Minh",
+37:"Vân Anh",
+38:"Thu",
+39:"Tiên",
+40:"Diệu",
+41:"Hằng"}
 lst2=[1,0,0,2,0,2,2,0,3,0,1,1,0,1]
 #lst2 là list chứa thông tin về "Mức độ nghiêm trọng của cuộc hội thoại" đã được mã hóa.
 lst3=[3,5,6,8]
@@ -64,7 +79,7 @@ for j in range(41):
             yellow+=1
     #Hai câu lệnh trên dùng để đếm xem người thứ j đã tham gia bao nhiêu cuộc hội thoại "Nghiêm trọng" và bao nhiêu cuộc hội thoại "Cực kì nghiêm trọng"
     if red ==0 and yellow < 3 and yellow!=0:
-        print("Người có số thứ tự:",j+1)
+        print("Người có số thứ tự:",j+1, "là:",Danhsach[j+1])
         lst5.append(j)
 #In ra danh sách những người ít bị tình nghi
     if red !=0 or yellow >=3:
@@ -90,10 +105,10 @@ for j in range(41):
         if lst1[j][i]!=0:
             yellow+=1
     if red==0 and yellow == 0:
-        print(f"Người có số thứ tự {j+1}")
+        print(f"Người có số thứ tự {j+1}, là:", Danhsach[j+1])
         lst6.append(j)
 lst8=[]
-print("Đối tượng bị tình nghi là: ")
+print("Đối tượng rất bị tình nghi là: ")
 for i in range(41):
     if i not in lst5 and i not in lst6:
         lst8.append(i)
@@ -106,11 +121,12 @@ dicts={}
 for i in range(len(lst8)):
     dicts[lst8[i]+1]=lst7[i]
 
-print("Xếp hạng đối tượng bị tình nghi dựa trên giá trị hàm mục tiêu:")
+print("Xếp hạng đối tượng rất bị tình nghi dựa trên giá trị hàm mục tiêu:")
 for i in range(len(lst7)):
     for j in dicts:
         if sorted_lst7[i]==dicts[j]:
             lst9.append(j)
+
 lst9=list(dict.fromkeys(lst9))
 for i in range(len(lst9)):
-    print("Người có số thứ tự thứ: ",lst9[i])
+    print("Người có số thứ tự thứ:", lst9[i],"là:", Danhsach[lst9[i]])
