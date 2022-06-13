@@ -127,4 +127,4 @@ lst9=list(dict.fromkeys(lst9))
 
 
 for i in range(len(lst9)):
-    print("Người có số thứ tự thứ: ",Danhsach[lst9[i]])
+    print("Người có số thứ tự thứ:",lst9[i],"là:",Danhsach[lst9[i]])
