@@ -5,5 +5,5 @@ Project description:
 . The information of this contest is here: https://drive.google.com/drive/folders/1GSUA_8yEL3HKVSjb3YD2dwd0CXY4ln26?usp=sharing (Vietnamese version)
 . By using the computational power of Python, we compute and test the sensity and sustainability of our model in this contest.
 Brach description:
-. In the main branch: There are our codes for testing model and codes of the LATex
+. In the main branch: There are our codes for testing model and codes of the LaTeX.
 . In the master branch: There are the codes that we consult from the previous-year team.
