@@ -1,9 +1,13 @@
-# Hanoi-Mathematical-Modeling
-Introduction: My team is a team ComSci at Hanoi Mathematical Modeling 2022. There are 3 members of my team: Le Nguyen Gia Bao, Duong Thanh Trieu, Truong Gia Bao
-Project description:
-. In this competition, we need to build a mathematical model to solve the real world-problems. 
-. The information of this contest is here: https://drive.google.com/drive/folders/1GSUA_8yEL3HKVSjb3YD2dwd0CXY4ln26?usp=sharing (Vietnamese version)
-. By using the computational power of Python, we compute and test the sensity and sustainability of our model in this contest.
-Brach description:
-. In the main branch: There are our codes for testing model and codes of the LaTeX.
-. In the master branch: There are the codes that we consult from the previous-year team.
+# Hanoi Mathematical Modeling
+
+## Introduction
+We are a Computer Science team participating in the Hanoi Mathematical Modeling competition of 2022. Our team is composed of Le Nguyen Gia Bao, Duong Thanh Trieu, and Truong Gia Bao.
+
+## Project Description
+In this competition, our challenge is to create a mathematical model that can tackle real-world issues. Details about the contest can be found in the [Vietnamese version here](https://docs.google.com/document/d/1cBPuNdgyf6BmWEgQgk5VjX04M0P9zY_l6FxqOvjozWc/edit).
+
+We leverage the computational power of Python to compute, test, and refine the sensitivity and sustainability of our model for the contest.
+
+## Branch Description
+- **Main Branch**: This branch contains our code for model testing and LaTeX documentation.
+- **Master Branch**: Here, we have archived codes that were developed by the preceding year's team for consultation.
